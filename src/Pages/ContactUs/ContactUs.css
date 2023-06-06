@@ -1,0 +1,78 @@
+.contactUs .contactUsContainer {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 200px 0;
+}
+@media screen and (max-device-width: 500px) {
+  .contactUs .contactUsContainer {
+    width: 100%;
+    padding: 100px 20px 0 20px;
+    display: block;
+  }
+}
+@media screen and (max-device-width: 500px) {
+  .contactUs .contactUsContainer .termsImg img {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+  }
+}
+.contactUs .contactUsContainer .contactText {
+  width: 40%;
+  margin: 0 50px 0 0;
+}
+@media screen and (max-device-width: 500px) {
+  .contactUs .contactUsContainer .contactText {
+    width: 100%;
+  }
+}
+.contactUs .contactUsContainer .contactText input {
+  display: block;
+  outline: none;
+  border: none;
+  background: #f8f8f8;
+  padding: 10px 20px;
+  margin: 10px 0;
+  width: 100%;
+  border-radius: 12px;
+  font-size: 16px;
+}
+.contactUs .contactUsContainer .contactText textarea {
+  display: block;
+  outline: none;
+  border: none;
+  background: #f8f8f8;
+  padding: 10px 20px;
+  margin: 10px 0;
+  width: 100%;
+  border-radius: 12px;
+  font-size: 16px;
+}
+.contactUs .contactUsContainer .contactText .ThankYou {
+  font-weight: 600;
+  font-size: 24px;
+  color: #E81F50;
+}
+.contactUs .contactUsContainer .contactText button {
+  display: block;
+  width: 100%;
+  background: #E81F50;
+  color: #fff;
+  margin: 20px 0 0 0;
+  min-width: 300px;
+  border-radius: 12px;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.03em;
+  padding: 15px 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+/*# sourceMappingURL=ContactUs.css.map */

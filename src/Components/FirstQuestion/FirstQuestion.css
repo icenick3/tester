@@ -1,0 +1,31 @@
+#FirsQuestion h2 {
+  font-size: 24px;
+  font-weight: 400;
+}
+#FirsQuestion h2 span {
+  background: #E81F50;
+  border-radius: 100%;
+  padding: 5px 12px;
+  color: white;
+}
+#FirsQuestion p {
+  font-weight: 400;
+  font-size: 20px;
+}
+@media screen and (max-device-width: 500px) {
+  #FirsQuestion p {
+    padding: 20px 0;
+  }
+}
+#FirsQuestion button {
+  background: #F3F3F3;
+  color: black;
+  font-weight: 400;
+}
+#FirsQuestion button:hover {
+  background: #E81F50;
+  cursor: pointer;
+  color: white;
+}
+
+/*# sourceMappingURL=FirstQuestion.css.map */

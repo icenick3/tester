@@ -1,0 +1,133 @@
+.TitlePage .titlePageContainer {
+  width: 55%;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 200px 0;
+}
+@media screen and (max-device-width: 500px) {
+  .TitlePage .titlePageContainer {
+    display: block;
+    width: 100%;
+    padding: 100px 20px;
+  }
+}
+.TitlePage .titlePageContainer .TitleImage {
+  width: 40%;
+  margin: 0 auto 0 50px;
+}
+.TitlePage .titlePageContainer .TitleImage img {
+  width: 100%;
+}
+@media screen and (max-device-width: 500px) {
+  .TitlePage .titlePageContainer .TitleImage {
+    display: none;
+  }
+}
+.TitlePage .titlePageContainer .TitleText {
+  width: 60%;
+  margin: 0 30px 0 0;
+}
+@media screen and (max-device-width: 500px) {
+  .TitlePage .titlePageContainer .TitleText {
+    width: 100%;
+  }
+}
+.TitlePage .titlePageContainer .TitleText .TitleImageMobile {
+  display: none;
+}
+@media screen and (max-device-width: 500px) {
+  .TitlePage .titlePageContainer .TitleText .TitleImageMobile img {
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-device-width: 500px) {
+  .TitlePage .titlePageContainer .TitleText .TitleImageMobile {
+    display: block;
+    width: 100%;
+  }
+}
+.TitlePage .titlePageContainer .TitleText h2 {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 36px;
+  color: #000000;
+}
+@media screen and (max-device-width: 500px) {
+  .TitlePage .titlePageContainer .TitleText h2 {
+    line-height: 26px;
+    font-weight: 300;
+    font-size: 24px;
+  }
+}
+.TitlePage .titlePageContainer .TitleText p {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+.TitlePage .titlePageContainer .TitleText button {
+  width: 10%;
+  background: #E81F50;
+  color: #fff;
+  margin: 20px 0 0 0;
+  min-width: 300px;
+  border-radius: 12px;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.03em;
+  padding: 15px 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+@media screen and (max-device-width: 500px) {
+  .TitlePage .titlePageContainer .TitleText button {
+    width: 100%;
+  }
+}
+.TitlePage .titlePageContainer .HowWork {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+@media screen and (max-device-width: 500px) {
+  .TitlePage .titlePageContainer .HowWork {
+    padding: 100px 0 20px 0;
+  }
+}
+.TitlePage .titlePageContainer .HowWork p {
+  margin: 0;
+}
+.TitlePage .titlePageContainer .HowWork img {
+  width: 24px;
+  height: 24px;
+}
+.TitlePage .titlePageContainer .activeRules {
+  width: 90%;
+  margin: 0 auto;
+}
+.TitlePage .titlePageContainer .activeRules div h3 {
+  font-size: 28px;
+  font-weight: 500;
+}
+.TitlePage .titlePageContainer .activeRules div p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #22314C;
+}
+.TitlePage .titlePageContainer .activeRules .leftblock {
+  margin: 10px 0 10px auto;
+  text-align: end;
+}
+
+/*# sourceMappingURL=TitlePage.css.map */

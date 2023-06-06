@@ -1,0 +1,41 @@
+.bigHeader {
+  position: fixed;
+  padding: 26px 15px 15px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background: white;
+  width: 100vw;
+  @media screen and (max-device-width: 500px) {
+    display: none;
+  }
+  h1 {
+    font-size: 32px;
+    font-weight: 300;
+    font-style: normal;
+    margin-bottom: 0;
+    line-height: 48px;
+    cursor: pointer;
+    color: #22314C;
+    margin-right: 125px;
+    margin-left: 20vw;
+    span {
+      color: #E81F50;
+      font-weight: 600;
+    }
+  }
+
+  p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.01em;
+    color: #22314C;
+    margin: 0 30px;
+    &:hover {
+      color: #2290d1;
+      cursor: pointer;
+    }
+  }
+}

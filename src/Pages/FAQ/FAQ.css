@@ -1,0 +1,62 @@
+.FAQ .FAQContainer {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 200px 0;
+}
+@media screen and (max-device-width: 500px) {
+  .FAQ .FAQContainer {
+    width: 100%;
+    display: block;
+    padding: 100px 20px 0 20px;
+  }
+}
+.FAQ .FAQContainer .FAQText {
+  width: 40%;
+  margin: 0 auto;
+}
+@media screen and (max-device-width: 500px) {
+  .FAQ .FAQContainer .FAQText {
+    width: 100%;
+  }
+}
+.FAQ .FAQContainer .FAQText h2 {
+  font-size: 32px;
+}
+.FAQ .FAQContainer .FAQText .textFAQ {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.FAQ .FAQContainer .FAQText .textFAQ h3 {
+  font-size: 20px;
+  padding: 30px 0;
+  font-weight: 400;
+}
+.FAQ .FAQContainer .FAQText .textFAQ h3 span {
+  color: #E81F50;
+}
+.FAQ .FAQContainer .FAQText .textFAQ h3:hover {
+  cursor: pointer;
+  color: #E81F50;
+}
+.FAQ .FAQContainer .FAQText .textFAQ img {
+  width: 24px;
+  height: 24px;
+}
+.FAQ .FAQContainer .FAQImage {
+  width: 40%;
+}
+@media screen and (max-device-width: 500px) {
+  .FAQ .FAQContainer .FAQImage {
+    display: none;
+  }
+}
+
+.swipeText {
+  width: 90%;
+}
+
+/*# sourceMappingURL=FAQ.css.map */

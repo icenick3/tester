@@ -1,0 +1,67 @@
+.howItWorks .howItWorksContainer {
+  width: 55%;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 200px 0;
+}
+@media screen and (max-device-width: 500px) {
+  .howItWorks .howItWorksContainer {
+    width: 100%;
+    display: block;
+    padding: 100px 20px 0 20px;
+  }
+}
+.howItWorks .howItWorksContainer .howItWorkText {
+  width: 50%;
+  margin: 0 30px 0 0;
+}
+@media screen and (max-device-width: 500px) {
+  .howItWorks .howItWorksContainer .howItWorkText {
+    width: 100%;
+  }
+}
+.howItWorks .howItWorksContainer .howItWorkText h2 {
+  font-size: 32px;
+  padding: 0 0 20px 0;
+}
+.howItWorks .howItWorksContainer .howItWorkText p {
+  font-size: 18px;
+  padding: 0 0 20px 0;
+}
+.howItWorks .howItWorksContainer .howItWorkText button {
+  width: 100%;
+  background: #E81F50;
+  color: #fff;
+  margin: 20px 0 0 0;
+  min-width: 300px;
+  border-radius: 12px;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.03em;
+  padding: 15px 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+.howItWorks .howItWorksContainer .howItWorksImage {
+  width: 50%;
+  margin: 0 20px;
+}
+@media screen and (max-device-width: 500px) {
+  .howItWorks .howItWorksContainer .howItWorksImage {
+    width: 100%;
+  }
+}
+@media screen and (max-device-width: 500px) {
+  .howItWorks .howItWorksContainer .howItWorksImage img {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+/*# sourceMappingURL=HowItWork.css.map */

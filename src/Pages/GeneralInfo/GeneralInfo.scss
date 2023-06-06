@@ -1,0 +1,42 @@
+#policy{
+  .container{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 200px 0;
+    @media screen and (max-device-width: 500px) {
+      width: 100%;
+      padding: 100px 20px 0 20px;
+    }
+    .policy-title-1{
+      padding: 10px 0;
+      font-size: 24px;
+    }
+    .policy-subtitle-2{
+      padding: 10px 0;
+      font-size: 24px;
+      color: #E81F50;
+    }
+    .p10{
+      font-style: italic;
+      padding: 0 0 0 40px;
+      @media screen and (max-device-width: 500px) {
+        padding: 0 0 0 20px;
+      }
+    }
+    p{
+      font-weight: 400;
+      color: #212529;
+      text-align: left;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Roboto", sans-serif;
+      margin-top: 0;
+      margin-bottom: 1rem;
+      font-size: 16px;
+      line-height: 20px;
+    }
+  }
+}

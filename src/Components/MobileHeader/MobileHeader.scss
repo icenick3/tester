@@ -1,0 +1,28 @@
+.header{
+  width: 100vw;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  background: white;
+  img{
+    width: 40px;
+    height: 40px;
+  }
+  h1 {
+    font-size: 24px;
+    font-weight: 200;
+    font-style: normal;
+    margin-bottom: 0;
+    line-height: 48px;
+    cursor: pointer;
+    color: #22314C;
+    margin-right: 125px;
+    margin-left: 20vw;
+    span {
+      color: #E81F50;
+      font-weight: 300;
+    }
+  }
+}

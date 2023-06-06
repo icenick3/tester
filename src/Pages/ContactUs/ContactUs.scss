@@ -1,0 +1,76 @@
+.contactUs{
+  .contactUsContainer {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 200px 0;
+    @media screen and (max-device-width: 500px) {
+      width: 100%;
+      padding: 100px 20px 0 20px;
+      display: block;
+    }
+    .termsImg{
+      img{
+        @media screen and (max-device-width: 500px) {
+          width: 70%;
+          display: block;
+          margin: 0 auto;
+        }
+      }
+    }
+    .contactText{
+      width: 40%;
+      margin: 0 50px 0 0;
+      @media screen and (max-device-width: 500px) {
+        width: 100%;
+      }
+      input{
+        display: block;
+        outline: none;
+        border: none;
+        background: #f8f8f8;
+        padding: 10px 20px;
+        margin: 10px 0;
+        width: 100%;
+        border-radius: 12px;
+        font-size: 16px;
+      }
+      textarea{
+        display: block;
+        outline: none;
+        border: none;
+        background: #f8f8f8;
+        padding: 10px 20px;
+        margin: 10px 0;
+        width: 100%;
+        border-radius: 12px;
+        font-size: 16px;
+      }
+      .ThankYou{
+        font-weight: 600;
+        font-size: 24px;
+        color: #E81F50;
+      }
+      button{
+        display: block;
+        width: 100%;
+        background: #E81F50;
+        color: #fff;
+        margin: 20px 0 0 0;
+        min-width: 300px;
+        border-radius: 12px;
+        font-style: normal;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0.03em;
+        padding: 15px 30px;
+        font-weight: bold;
+        text-transform: uppercase;
+        border: none;
+        cursor: pointer;
+        transition: all 0.4s;
+      }
+    }
+  }
+}
